@@ -11,7 +11,7 @@ public class Main {
             System.out.println("This time, it's the if that will never be met (this bit here)");
         }
         else{
-            System.out.println("This statement will never be executed!");
+            System.out.println("This statement will be executed!");
         }
     }
 }
