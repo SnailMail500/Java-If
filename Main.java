@@ -14,5 +14,18 @@ public class Main {
         else{
             System.out.println("This statement will be executed!");
         }
+        //THE TERNARY OPERATOR (don't need to use this but I'm sure one day I will and this will be useful for it)
+        int time = 18;
+        if (time > 20){
+            System.out.println("Good evening.");
+        }
+        else{
+            System.out.println("Good day.");
+        }
+        //this is long
+        //so we can do this
+        String result = (time > 20) ? "Good evening." : "Good day.";
+        System.out.println(result);
+        //Same same, but different
     }
 }
