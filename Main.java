@@ -4,7 +4,8 @@ public class Main {
             System.out.println("20 is greater than 18");
         }
         else{
-            System.out.println("This will never be met because...\nthe condition will always be true!");//self explanatory really
+            //System.out.println("This will never be met because...\nthe condition will always be true!");//self explanatory really
+            //commented out as dead code
         }
         boolean test = false;
         if (test == true){
