@@ -27,5 +27,14 @@ public class Main {
         String result = (time > 20) ? "Good evening." : "Good day.";
         System.out.println(result);
         //Same same, but different
+
+        //or a select case (switch case in java)
+
+        switch (time) {
+            case 20:
+                System.out.println("20");
+            case 18:
+                System.out.println("Not 20");
+        }
     }
 }
